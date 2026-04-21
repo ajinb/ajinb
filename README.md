@@ -15,6 +15,7 @@ I build open-source tools that apply AI to real infrastructure problems — on-c
 | Tool | What It Does |
 |---|---|
 | [sre-ai-toolkit](https://github.com/ajinb/sre-ai-toolkit) | Curated AI-assisted scripts for SRE teams — alerting, incident response, observability |
+| [agent-adam](https://github.com/ajinb/agent-adam) | Personal AI assistant built with the Claude API |
 | incident-scribe *(coming soon)* | Slack thread → structured incident report via Claude |
 | alert-explainer *(coming soon)* | Prometheus alert → plain-English triage steps |
 | k8s-ai-operator *(coming soon)* | Kubernetes operator with AI-driven pod remediation |
