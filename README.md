@@ -1,47 +1,52 @@
 # Ajin Baby
 
-**AI Infrastructure Architect · 15+ years in Cloud & SRE**
+**AI Platform & Cloud Infrastructure Architect** · 15+ years in cloud architecture · 2x founder before architect
 
-I build open-source tools that apply AI to real infrastructure problems — on-call automation, observability, incident response, and cost intelligence.
+I design and ship AI-enabled cloud platforms — **agentic infrastructure, Model Context Protocol (MCP) servers, context/graph infrastructure, and internal developer platforms** — for safety-critical and regulated industries.
 
-→ [cloudandsre.com](https://cloudandsre.com)  
-→ [youtube.com/@cloudandsre](https://youtube.com/@cloudandsre)  
-→ [linkedin.com/in/ajinbaby](https://linkedin.com/in/ajinbaby)
+Every repo here is a working piece of that story, tied to a blog post at **cloudandsre.com** or a chapter of **Self-Healing Infrastructure** (book in progress).
+
+→ [cloudandsre.com](https://cloudandsre.com)
+→ [linkedin.com/in/ajinbaby](https://www.linkedin.com/in/ajinbaby)
+→ [youtube.com/@cloudandsre](https://www.youtube.com/@cloudandsre)
+→ [facebook.com/cloudandsre](https://facebook.com/cloudandsre)
 
 ---
 
 ## Currently Building
 
-| Tool | What It Does |
+| Tool | What it is |
 |---|---|
-| [sre-ai-toolkit](https://github.com/ajinb/sre-ai-toolkit) | Curated AI-assisted scripts for SRE teams — alerting, incident response, observability |
-| [agent-adam](https://github.com/ajinb/agent-adam) | Personal AI assistant built with the Claude API |
-| incident-scribe *(coming soon)* | Slack thread → structured incident report via Claude |
-| alert-explainer *(coming soon)* | Prometheus alert → plain-English triage steps |
-| k8s-ai-operator *(coming soon)* | Kubernetes operator with AI-driven pod remediation |
+| [`sre-ai-toolkit`](https://github.com/ajinb/sre-ai-toolkit) | Curated AI-assisted scripts for platform & reliability engineers |
+| [`incident-scribe`](https://github.com/ajinb/incident-scribe) | Slack thread → structured incident report, powered by Claude |
+| [`agent-adam`](https://github.com/ajinb/agent-adam) | Agentic personal assistant built on the Claude API |
+| `mcp-context-proxy-reference` | Reference MCP server — policy-guarded proxy across graph, GraphQL, REST, and DB backends *(coming soon)* |
+| `alert-explainer` | Prometheus alert → natural-language triage *(coming soon)* |
+| `k8s-ai-operator` | Kubernetes operator with AI-driven remediation *(coming soon)* |
 
 ---
 
-## Tech Stack
+## Production Stack
 
-```
-Python · Go · AWS · Azure · Kubernetes · Terraform
-Anthropic Claude · LlamaIndex · Neo4j · Prometheus · Databricks
-```
+**AI platform:** Azure OpenAI / Azure AI Foundry · MCP servers · LlamaIndex · GraphRAG
+**Cloud & infra:** AWS (ECS/Fargate) · Azure · Kubernetes · Terraform · Databricks
+**Graph & context:** Neo4j · Cypher · knowledge-graph-backed retrieval
+**Languages:** Python (primary) · Go · Bash · SQL / Cypher
 
 ---
 
 ## Writing
 
-All posts ship with working code on GitHub.  
-Read at **[cloudandsre.com](https://cloudandsre.com)**
+Every post ships with working code. Read at **[cloudandsre.com](https://cloudandsre.com)**.
+Book in progress: *Self-Healing Infrastructure: Building Autonomous Cloud Systems with AI.*
 
 ---
 
 ## Background
 
-- Computing Architect at [Jeppesen ForeFlight (Boeing)](https://foreflight.com) · 8+ years
-- MS Management Information Systems · University of Arizona
-- MS Artificial Intelligence · in progress
+- 15+ years architecting and operating cloud systems at scale
+- Currently: Computing Architect at a global aviation-SaaS platform (Fortune-500 aviation technology company)
+- 2x founder before architect — Veeble SoftTech (scaled 3→20, $500→$500K ARR, 110+ countries) and ExTravelMoney Technosol (CEO)
+- MS Management Information Systems, University of Arizona · MS Artificial Intelligence (in progress)
 - AWS Solutions Architect Associate · Azure Administrator Associate · Neo4j Certified Professional
-- IEEE Senior Member (application in progress) · 15+ year member
+- IEEE 15+ year member · Senior Member application in progress
