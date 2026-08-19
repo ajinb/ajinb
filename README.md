@@ -22,12 +22,17 @@ Every repo here is a working piece of that story, tied to a long-form post at **
 | [`alert-explainer`](https://github.com/ajinb/alert-explainer) | Prometheus alert → natural-language triage with output contracts |
 | [`cloudandsre-skills`](https://github.com/ajinb/cloudandsre-skills) | Operator-grade agent skills (output contracts, discipline sections) — portable across Claude Code, Claude Desktop, Codex CLI |
 | [`agent-adam`](https://github.com/ajinb/agent-adam) | Agentic personal assistant built on the Claude API |
+| [`mcp-chaos`](https://github.com/ajinb/mcp-chaos) | Chaos engineering for the MCP tool-call plane — fault injection and reliability SLIs for agent tool use |
+| [`sre-harness`](https://github.com/ajinb/sre-harness) | Minimal runnable reference harness for SRE agents: tool orchestration, verification, memory, guardrails, observability |
+| [`context-assembler`](https://github.com/ajinb/context-assembler) | Context engineering reference — typed segments, enforced token budget, reranked selection, compaction |
+| [`runbook-rag-starter`](https://github.com/ajinb/runbook-rag-starter) | The smallest useful RAG, in 40 lines — a Markdown folder, sqlite-vec, and a CLI |
+| [`cloudandsre-python`](https://github.com/ajinb/cloudandsre-python) | Shared Python utilities — retry, circuit breaker, throttle, token-cost meter, prompt-cache helper |
 
 ## In progress
 
 | Tool | What it is |
 |---|---|
-| `mcp-gateway` | Production-grade MCP gateway: identity, Cedar authz, schema firewall, quarantine queue, provenance ledger. Reference design at [cloudandsre.com/blog/the-mcp-gateway-pattern](https://cloudandsre.com/blog/the-mcp-gateway-pattern) |
+| `mcp-gateway` | Production-grade MCP gateway: identity, Cedar authz, schema firewall, quarantine queue, provenance ledger. Design published — implementation not yet public. Reference design at [cloudandsre.com/blog/the-mcp-gateway-pattern](https://cloudandsre.com/blog/the-mcp-gateway-pattern) |
 | `k8s-ai-operator` | Kubernetes operator with policy-bounded AI-driven remediation |
 | `cloud-cost-ai` | LLM-powered cost anomaly detection for AWS / GCP |
 
@@ -53,8 +58,8 @@ Recent: *Prompt engineering for SRE · The MCP gateway pattern · Skills for AI 
 ## Background
 
 - 15+ years architecting and operating cloud systems at scale
-- Currently: Computing Architect at a global aviation-SaaS platform (Fortune-500 aviation technology company)
+- Currently: Staff Software Engineer at a global aviation-SaaS platform (Fortune-500 aviation technology company); previously Computing Architect there for 8 years
 - 2x founder before architect — Veeble SoftTech (scaled 3→20, $500→$500K ARR, 110+ countries) and ExTravelMoney Technosol (CEO)
 - MS Management Information Systems, University of Arizona · MS Artificial Intelligence (in progress)
-- AWS Solutions Architect Associate · Azure Administrator Associate · Neo4j Certified Professional · CNSS 4011/4012/4013
+- Azure AI Engineer Associate · AWS Solutions Architect Associate · Azure Administrator Associate · Neo4j Certified Professional · CNSS 4011/4012/4013
 - IEEE 15+ year member · Senior Member application in progress
